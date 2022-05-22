@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Order extends Model
+{
+
+    protected $fillable = [
+        'number',
+        'client',
+        'total_sum',
+        'address',
+        'created',
+    ];
+}
